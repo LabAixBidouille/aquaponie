@@ -2,6 +2,7 @@
 
 # Présentation
 
+![Aquaponie](images/aquaponie_homepage.png "Aquaponie")
 https://github.com/LabAixBidouille/aquaponie/blob/master/pdf/Projet_domotique_Aquaponie.pdf
 
 # Objectifs
