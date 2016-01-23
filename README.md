@@ -19,8 +19,12 @@ https://github.com/LabAixBidouille/aquaponie/blob/master/pdf/Projet_domotique_Aq
 
 ## Monitoring temps réel
 
-`TODO @Nicolas`
-
-
-
+Les données mesurées au fil de l'eau seront :
+* Conductivité
+* Ph
+* [Redox](https://fr.wikipedia.org/wiki/Indicateur_r%C3%A9dox)
+* Température
+* Niveau
+* Oxygène dilué
+* Nitrate
 
