@@ -17,7 +17,11 @@ https://github.com/LabAixBidouille/aquaponie/blob/master/pdf/Projet_domotique_Aq
 
 `TODO @François`
 
-## Monitoring temps réel
+## Extraction des données vivantes depuis MQTT
+
+Un programme python fourni par le LabAixBidouille permet d'extraire les données précédemmemnt mesurées et de les formater sous format CSV. Les différents formats des CSV seront décrits ultérieurement.
+
+## Stockage des données
 
 Les données mesurées au fil de l'eau seront :
 * [Conductivité](http://aquatechnique.pagesperso-orange.fr/Techniques/page_%20conduc.htm)
@@ -27,6 +31,13 @@ Les données mesurées au fil de l'eau seront :
 * Niveau
 * Oxygène dilué
 * Nitrate
+
+Nous utilisons les outils opensource de la stack InfluxData
+* InfluxDB pour le stockage des données
+* Telegraf pour remonter les données mesurées dans InfluxDB
+* Kapacitor pour déclencher des alertes sur les données présentes dans InfluxDB
+ 
+## Monitoring temps réel
 
 L'outil utilisé pour la restitution graphique sera [Grafan](http://grafana.org/), un produit opensource.
 Il s'agit d'une solution clé en main, facile à prendre en main.
