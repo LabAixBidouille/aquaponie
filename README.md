@@ -28,3 +28,7 @@ Les données mesurées au fil de l'eau seront :
 * Oxygène dilué
 * Nitrate
 
+L'outil utilisé pour la restitution graphique sera [Grafan](http://grafana.org/), un produit opensource.
+Il s'agit d'une solution clé en main, facile à prendre en main.
+
+![Monitoring](images/grafana_homepage.png "Monitoring")
