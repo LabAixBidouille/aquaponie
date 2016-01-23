@@ -14,9 +14,13 @@ https://github.com/LabAixBidouille/aquaponie/blob/master/pdf/Projet_domotique_Aq
 
 # Logiciels
 
-## Contrôle
+## Interface de contrôle
+
+`TODO @François`
 
 ## Monitoring temps réel
+
+`TODO @Nicolas`
 
 
 
