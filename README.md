@@ -43,7 +43,7 @@ Nous utilisons les outils opensource de la stack InfluxData
  
 ## Monitoring temps réel
 
-L'outil utilisé pour la restitution graphique sera [Grafan](http://grafana.org/), un produit opensource.
+L'outil utilisé pour la restitution graphique sera [Grafana](http://grafana.org/), un produit opensource.
 Il s'agit d'une solution clé en main, facile à prendre en main.
 
 ![Monitoring](images/grafana_homepage.png "Monitoring")
