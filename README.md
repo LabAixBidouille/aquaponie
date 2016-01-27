@@ -21,6 +21,7 @@ Les données mesurées au fil de l'eau seront :
 * Niveau
 * Oxygène dilué
 * Nitrate
+* Je sais pas
 
 `todo : il est nécessaire de documenter chacun des points pour expliciter ces choix`
 
