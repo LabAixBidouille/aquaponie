@@ -30,11 +30,10 @@ L'UC doit répondre dans tous les cas.
  - Si le message reçu par l'UC a été corrompu, il répondra avec le même topique et 'KO' en payload.
 
 Si l'UC a plusieurs messages à transmettre, il peut les assembler en un seul avec:
+- Topique = "01/MM" ou "02/MM"  (Multi-Messages)
+- Payload = "T1=P1;T2=P2;..."
 
-	- Topique = "01/MM" ou "02/MM"  (Multi-Messages)
-	- Payload = "T1=P1;T2=P2;..."
-
-   Dans ce cas le GM dissociera les messages pour les envoyer individuellement au broker.
+Dans ce cas le GM dissociera les messages pour les envoyer individuellement au broker.
 
 Si l'UC ne répond pas, 2 autres envois sont effectués avant de déclarer qu'il est en panne (message MQTT d'alarme et led rouge allumée). S'il répond avant le troisième envoi le processus est annulé. Le test de vie est maintenu, mais si la Led d'alarme est allumée, on n'envoie plus de message d'alarme pour ne pas saturer le broker.
 
